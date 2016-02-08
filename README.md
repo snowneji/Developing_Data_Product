@@ -6,3 +6,4 @@ Data: mtcars in R
 
 method: kmeans
 
+Link to the app: https://snowneji.shinyapps.io/Mtcars_Clustering/
