@@ -1,0 +1,45 @@
+Clustering Data Product Pitch Presentation Slides
+========================================================
+author: Yifan Wang
+date: Feb 9, 2016
+
+Clustering Data Product
+========================================================
+
+
+- Direct Link: https://snowneji.shinyapps.io/Mtcars_Clustering/
+
+- Purpose: To perform k-means clustering analysis and visualization without code
+
+- Package: Shiny
+
+Method
+========================================================
+
+- 1. Open the link on the browser
+- 2. Select variables to perform the clustering
+- 3. Select the number of clusters
+- 4. Check the graph for the output
+
+
+Advantages
+========================================================
+
+- We need to run following code multiple times include/exclude different variables and clusters to compare the output if without the app
+
+- Now with the app we can compare the outputs interactively
+
+
+```r
+library(fpc)
+kmd<-kmeans(x = mtcars,centers = 5)
+plotcluster(mtcars, kmd$cluster)
+```
+
+![plot of chunk unnamed-chunk-1](Data Product Pitch Presentation Slides-figure/unnamed-chunk-1-1.png) 
+
+Data Set We Are Using
+========================================================
+
+
+
