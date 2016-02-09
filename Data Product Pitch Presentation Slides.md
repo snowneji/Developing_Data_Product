@@ -38,8 +38,8 @@ plotcluster(mtcars, kmd$cluster)
 
 ![plot of chunk unnamed-chunk-1](Data Product Pitch Presentation Slides-figure/unnamed-chunk-1-1.png) 
 
-Data Set We Are Using
+Reference
 ========================================================
-
+please check mtcars data set and kmeans function in R for details of the mtcars dataset and k-mean method
 
 

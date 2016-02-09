@@ -35,8 +35,8 @@ kmd<-kmeans(x = mtcars,centers = 5)
 plotcluster(mtcars, kmd$cluster)
 ```
 
-Data Set We Are Using
+Reference
 ========================================================
-
+please check mtcars data set and kmeans function in R for details of the mtcars dataset and k-mean method
 
 
